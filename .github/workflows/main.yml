@@ -19,8 +19,8 @@ jobs:
           server: https://octoneita.octopus.app
           service_account_id: 769045ce-7846-454f-8597-28d8d9773ac2
 
-      - name: Create Octopus release
-        uses: OctopusDeploy/create-release-action@v3
-        with:
-          space: Default
-          project: 01. Basic Script App
+      # - name: Create Octopus release
+      #   uses: OctopusDeploy/create-release-action@v3
+      #   with:
+      #     space: Default
+      #     project: 01. Basic Script App
