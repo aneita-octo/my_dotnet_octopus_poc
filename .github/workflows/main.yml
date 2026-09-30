@@ -2,7 +2,7 @@ name: Create a release in Octopus
 on:
   push:
     branches:
-      - main
+      - aneita-test-octopus
 
 jobs:
   create_release:
